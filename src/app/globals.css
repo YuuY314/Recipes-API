@@ -1,0 +1,25 @@
+* {
+  font-family: var(--font-open-sans);
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --primary: #8B5CF6;
+    --primary-hover: #7C3AED;
+
+    --background: #111827;
+    --surface: #1F2937;
+
+    --text: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --text-hover: #FFFFFF;
+
+    --border: #374151;
+
+    --success: #22C55E;
+    --danger: #EF4444;
+    --danger-hover: #DC2626;
+}
