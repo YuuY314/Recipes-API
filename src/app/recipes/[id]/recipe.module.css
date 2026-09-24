@@ -9,8 +9,35 @@
     justify-content: center;
 }
 
-.recipe_info img {
-    height: auto;
+.recipe_info > img {
+    align-self: flex-start;
     width: 500px;
+    object-fit: contain;
     border: 4px solid black;
+}
+
+.recipe_info > div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.recipe_rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.recipe_rating_stars {
+    display: flex;
+    align-items: center;
+}
+
+.recipe_rating_stars img {
+    height: 30px;
+    width: 30px;
+}
+
+.recipe_info ul {
+    padding-left: 2rem;
 }
